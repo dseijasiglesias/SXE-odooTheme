@@ -1,8 +1,11 @@
-<?php
+{
+  'name':'Seijas Theme',
+  'description': 'The first Theme for Odoo created Seijas',
+  'version':'1.0',
+  'author':'Daniel Seijas',
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+  'data': [
+  ],
+  'category': 'Theme/Creative',
+  'depends': ['website', 'website_less'],
+}
